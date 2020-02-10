@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  color: rgba(0, 50, 50);
+  color: #bada55;
+  /* three color order together the last order will show */
+  /* ；use to seperate another order like color;font*/
+  /* color can do the color name like red,blue...    Or rgb(0, 50, 50)    Or color code (#bada55)*/
+  background-color: #556b2f;
+  text-align: right;
+  font-size: 12pt;
+  font-size: 12px;
+  /* font-size: 400%; */
+}
