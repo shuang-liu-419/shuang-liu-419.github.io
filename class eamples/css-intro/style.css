@@ -1,13 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+
+body {
+font-family: 'Lato', sans-serif;
+font-size: 18pt;
+}
+
 h1 {
   color: red;
   color: rgba(0, 50, 50);
   color: #bada55;
-  /* three color order together the last order will show */
+  /* three orders together the last order will show */
   /* ；use to seperate another order like color;font*/
   /* color can do the color name like red,blue...    Or rgb(0, 50, 50)    Or color code (#bada55)*/
   background-color: #556b2f;
   text-align: right;
   font-size: 12pt;
   font-size: 12px;
-  /* font-size: 400%; */
+  font-size: 400%;
+  font-family: 'Lato', sans-serif;
+  /* 400% of the default browser */
+}
+
+p {
+font-weight: 600;
+}
+
+
+/* b and strong both means bold */
+b,strong {
+  font-weight: 200;
+}
+
+
+/* a is for link for the page */
+a {
+  color: teal;
+  /* text-decoration: none removes the underline */
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: pink;
 }
