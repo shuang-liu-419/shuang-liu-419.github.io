@@ -42,3 +42,9 @@ a {
 a:hover{
   background-color: pink;
 }
+
+.class {
+  font-weight: 400;
+  color: orange;
+
+}
