@@ -6,7 +6,12 @@ body {
 
 .grid-container-1 {
   display: grid;
-  width: 400px;
+  /* width: 400px; */
+  /* height: 400px; */
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-gap: 30px;
+
 }
 
 
