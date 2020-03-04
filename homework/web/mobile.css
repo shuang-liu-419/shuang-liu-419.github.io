@@ -1,0 +1,75 @@
+@media only screen and (max-width:767px) {
+  /*put here for css things that really need to change  */
+
+body {
+  background-color: #cc9999;
+}
+
+.grid1-container, .grid2-container, .grid3-container, .grid4-container {
+  grid-template-columns: 150px;
+  grid-template-rows: repeat(12,150px)
+}
+
+.grid1-img-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid1-img-2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid1-img-3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.grid1-img-4 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.grid1-img-5 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+.grid1-img-6 {
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+.grid1-img-11 {
+  grid-column: 1/2;
+  grid-row: 7/8;
+}
+
+.grid1-img-12 {
+  grid-column: 1/2;
+  grid-row: 8/9;
+}
+
+.grid1-img-13 {
+  grid-column: 1/2;
+  grid-row: 9/10;
+}
+
+.grid1-img-14 {
+  grid-column: 1/2;
+  grid-row: 10/11;
+}
+
+.grid1-img-15 {
+  grid-column: 1/2;
+  grid-row: 11/12;
+}
+
+.grid1-img-16 {
+  grid-column: 1/2;
+  grid-row: 12/13;
+}
+
+
+
+}
