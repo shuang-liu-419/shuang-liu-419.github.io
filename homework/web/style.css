@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap'); */
 
 body {
   font-family: 'Lato', sans-serif;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   border: 0px solid blue;
   background-color: #996666;
@@ -11,8 +12,8 @@ body {
 h1 {
   text-align: center;
   font-size: 28pt;
-
 }
+
 nav {
   margin-bottom: 150px;
 }
@@ -25,13 +26,13 @@ section {
 .grid1-container {
   display: grid;
   /* you can use the following two properties to define the height of your rows or the width of your columns. Units you can use for this are px, %, fr units, and em/rem. */
-  grid-template-columns: 150px 150px;
+  grid-template-columns: auto;
   grid-template-rows: 150px 150px;
-
   /* grid-column-gap and grid-row-gap let you set the spacing between grid cells. You can set them uniformly using the grid-gap property. */
   grid-column-gap: 20px;
-  grid-row-gap: 70px;
+  grid-row-gap: 35px;
 }
+
 
 .grid1-img-1 {
   grid-column: 1/2;
@@ -94,32 +95,30 @@ section {
 }
 
 /* End of gallery grid code */
-
 /* Text 1 - Putting a headline and two different paragraphs in separate columns*/
-
 .grid2-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px;
+  /* grid-template-rows: 150px 150px; */
 }
 
 .grid2-hed {
   grid-column: 1/2;
   grid-row: 1/2;
 }
+
 .grid2-text-1 {
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
 .grid2-text-2 {
   grid-column: 3/4;
   grid-row: 1/2;
 }
 
 /* End of Text 1 */
-
 /* Text 2 - a headline and a multi-column text */
-
 .grid3-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -138,9 +137,7 @@ section {
 }
 
 /* End of Text 2 */
-
 /* Mixed: A grid using picture and text */
-
 .grid4-container {
   display: grid;
   grid-gap: 5%;
@@ -162,10 +159,13 @@ section {
 }
 
 /* End of mixed grid */
-
 footer {
   margin-top: 120px;
   border-top: 3px solid #556b2f;
   padding-top: 10px;
   height: 150px;
+}
+
+.grid-img {
+  width: 100%;
 }
