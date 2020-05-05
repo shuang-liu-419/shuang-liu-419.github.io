@@ -1,20 +1,21 @@
 $(document).ready(function() {
-      console.log("we loaded");
+  $(".click_c1").click(function() {
+    $("#c1").show();
+    $("#d2").hide();
+  });
 
-      $("#c1")
-        .click(function() {
-          $(".c1").show();
-          $(".d2").hide();
-        });
-
-      $("#d2")
-        .click(function() {
-          $(".c1").hide();
-          $(".d2").show();
-        });
+  $(".click_d2")
+    .click(function() {
+      $("#c1").hide();
+      $("#d2").show();
+    });
 
 
-      $("button")
-        .click(function() {
-          $("t").slideToggle('slow');
-        });
+  $(".a_button").click(function() {
+    $(".a_t").toggle('slow');
+  });
+
+  $(".b_button").click(function() {
+    $(".b_t").toggle('slow');
+  });
+})

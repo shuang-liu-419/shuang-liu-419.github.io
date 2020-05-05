@@ -9,6 +9,19 @@
 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mobile.css">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165622263-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-165622263-1');
+
+        </script>
 
     </head>
 
@@ -16,9 +29,9 @@
 
         <h1>Easy Recipes</h1>
         <div class="Intro">
-            <nav class="nav1">
-                <a class="navtext" id="c1" href="#c1">Easy Beef Stir Fry</a>
-                <a class="navtext" id="d2" href="#d2">Chocolate Covered Strawberries</a>
+            <nav class="nav1" style="text-align: center;">
+                <a class="navtext click_c1" style="cursor: pointer;">Easy Beef Stir Fry</a>
+                <a class="navtext click_d2" style=" margin-left: 300px;cursor: pointer;">Chocolate Covered Strawberries</a>
             </nav>
             <p>I love cooking, so I think I know some easy recipe for Chinese food and desserts. I am focusing on people who don’t know how to cook or who don’t have time to cook. But it’s life, we do have to cook sometimes, for
                 your girlfriend, boy boyfriend, or for yourself. This is what my brother told me, last time we met is because he wanted to cook for his girlfriend, but he didn’t know what to do or how to do. The only thing he wanted is simple, fast and
@@ -26,7 +39,7 @@
                 good. For people like my brother, especially for men, they don’t want the recipe and cooking processing to be long and complicated, that’s why you can see this website now~~~~~~
             </p>
             <main>
-                <div class="c1">
+                <div class="c1" id="c1">
                     <section class="intro">
                         <section class="grid1-container">
                             <h2 class="grid1-hed">Easy Beef Stir Fry</h2>
@@ -93,98 +106,86 @@
                                 <li>Trim away any silver skin, or other tough connective tissue that often surrounds a cut of beef.</li>
                                 <li>Look at the way the grains are running, you will see long lines of muscle.</li>
                                 <li>You want to slice across the long lines (across the grain) for the most tender meat. I cut 1/4 inch thick.</li>
+                                <button type="button" name="button" style="width: 130px;height: 50px;margin-left: -390px;" class="a_button">BANG!</button>
                             </ul>
-                            <button type="button" name="button" class="button">BANG!</button>
-                            <p class="t">TOTAL TIME 50 minutes</p>
+                            <br />
+                            <p class="a_t">TOTAL TIME 50 minutes</p>
+                        </section>
+                    </section>
+                </div>
+                <div class="d2" id="d2" style="display: none;">
+                    <section class="intro">
+                        <section class="grid1-container">
+                            <h2 class="grid1-hed">Chocolate Covered Strawberries</h2>
+                            <img class="grid1-img grid-img" src="berry.jpg" alt="placeholder pic">
+                            <p class="grid1-text">Chocolate Covered Strawberries are an easy treat for Valentine’s Day or any holiday. Use white, milk or dark chocolate, or a combination of a few!
+                                Strawberries and chocolate are the perfect combo! Whether in Strawberry Layer Brownies or these Chocolate Cheesecake Stuffed Strawberries, it is always a favorite.
+                                Nothing says “I love you” more than something homemade just for your sweetheart, customized with their favorite flavors!
+                            </p>
                         </section>
                     </section>
 
-
-
-
-                    <div class="d2">
-                        <section class="intro">
-                            <section class="grid1-container">
-                                <h2 class="grid1-hed">Chocolate Covered Strawberries</h2>
-                                <img class="grid1-img grid-img" src="berry.jpg" alt="placeholder pic">
-                                <p class="grid1-text">Chocolate Covered Strawberries are an easy treat for Valentine’s Day or any holiday. Use white, milk or dark chocolate, or a combination of a few!
-                                    Strawberries and chocolate are the perfect combo! Whether in Strawberry Layer Brownies or these Chocolate Cheesecake Stuffed Strawberries, it is always a favorite.
-                                    Nothing says “I love you” more than something homemade just for your sweetheart, customized with their favorite flavors!
-                                </p>
-                            </section>
+                    <section class="text1">
+                        <section class="grid2-container">
+                            <h2 class="grid2-hed">Ingredients</h2>
+                            <ul class="grid2-text-1">
+                                <li>1 lb whole fresh strawberries washed and dried</li>
+                                <li>150 grams solid chocolate bar of choice not chips</li>
+                            </ul>
                         </section>
+                    </section>
 
-                        <section class="text1">
-                            <section class="grid2-container">
-                                <h2 class="grid2-hed">Ingredients</h2>
-                                <ul class="grid2-text-1">
-                                    <li>1 lb whole fresh strawberries washed and dried</li>
-                                    <li>150 grams solid chocolate bar of choice not chips</li>
-                                </ul>
-                            </section>
+                    <section class="text2">
+                        <section class="grid3-container">
+                            <h2 class="grid3-hed">Instructions</h2>
+                            <ol class="grid3-text">
+                                <li>Wash strawberries well and allow to dry completely.</li>
+                                <li>Place 1" of water in a small pot.
+                                </li>
+                                <li>Break chocolate and place in a glass bowl that fits over the top of the pot without touching the water.
+                                </li>
+                                <li>Bring the water to a simmer over medium-high heat, then reduce to low and place bowl with chocolate over top.
+                                    Stir frequently until melted and smooth.</li>
+                                <li>Remove from heat (I like to keep the bowl over the pot to keep the chocolate warm) and carefully dip
+                                    strawberries, holding the stem. Gently shake off excess chocolate and place on a parchment lined baking sheet.
+                                    Garnish with toppings if using.
+                                </li>
+                                <li>When all strawberries are coated, place in the refrigerator to set completely before serving.</li>
+                            </ol>
                         </section>
+                    </section>
 
-                        <section class="text2">
-                            <section class="grid3-container">
-                                <h2 class="grid3-hed">Instructions</h2>
-                                <ol class="grid3-text">
-                                    <li>Wash strawberries well and allow to dry completely.</li>
-                                    <li>Place 1" of water in a small pot.
-                                    </li>
-                                    <li>Break chocolate and place in a glass bowl that fits over the top of the pot without touching the water.
-                                    </li>
-                                    <li>Bring the water to a simmer over medium-high heat, then reduce to low and place bowl with chocolate over top.
-                                        Stir frequently until melted and smooth.</li>
-                                    <li>Remove from heat (I like to keep the bowl over the pot to keep the chocolate warm) and carefully dip
-                                        strawberries, holding the stem. Gently shake off excess chocolate and place on a parchment lined baking sheet.
-                                        Garnish with toppings if using.
-                                    </li>
-                                    <li>When all strawberries are coated, place in the refrigerator to set completely before serving.</li>
-                                </ol>
-                            </section>
+                    <section clas="text3">
+                        <section class="grid4-container">
+                            <h2 class="grid4-hed">How to Melt Chocolate</h2>
+                            <ol class="grid4-text">
+                                <li>Fill pot with 1/2-1″ of water in the bottom.
+                                </li>
+                                <li>Simmer water and place the bowl, with chocolate in it, over top.</li>
+                                <li>Reduce the heat to low, and slowly melt and stir the chocolate until smooth.</li>
+                                <li>Variations on These Chocolate Covered Strawberries</li>
+                                <li>There are so many fun ways to dress up these strawberries! You can top them with almost anything you want.
+                                    Check out these fun ideas for some inspiration!
+                                </li>
+                                <li>Choose your favorite kind of chocolate. It’s one of only two ingredients, so go all out and get the good stuff,
+                                    whether it’s milk, dark or white chocolate.
+                                </li>
+                                <li>Mix things up! Melt two different kinds of chocolate, and use one for dipping and one for drizzling for an extra
+                                    special presentation.
+                                </li>
+                                <li>Get a little crazy and add a drizzle of melted peanut butter, butterscotch or another flavor of chips.</li>
+                                <li>Before your chocolate sets, sprinkle on some chopped nuts, toffee bits, sprinkles, or colored sugar.</li>
+                                <button type="button" name="button" style="width: 130px;height: 50px;margin-left: -390px;" class="b_button">BANG!</button>
+                            </ol>
+                            <br />
+                            <p class="b_t">TOTAL TIME 25 minutes</p>
                         </section>
-
-                        <section clas="text3">
-                            <section class="grid4-container">
-                                <h2 class="grid4-hed">How to Melt Chocolate</h2>
-                                <ol class="grid4-text">
-                                    <li>Fill pot with 1/2-1″ of water in the bottom.
-                                    </li>
-                                    <li>Simmer water and place the bowl, with chocolate in it, over top.</li>
-                                    <li>Reduce the heat to low, and slowly melt and stir the chocolate until smooth.</li>
-                                    <li>Variations on These Chocolate Covered Strawberries</li>
-                                    <li>There are so many fun ways to dress up these strawberries! You can top them with almost anything you want.
-                                        Check out these fun ideas for some inspiration!
-                                    </li>
-                                    <li>Choose your favorite kind of chocolate. It’s one of only two ingredients, so go all out and get the good stuff,
-                                        whether it’s milk, dark or white chocolate.
-                                    </li>
-                                    <li>Mix things up! Melt two different kinds of chocolate, and use one for dipping and one for drizzling for an extra
-                                        special presentation.
-                                    </li>
-                                    <li>Get a little crazy and add a drizzle of melted peanut butter, butterscotch or another flavor of chips.</li>
-                                    <li>Before your chocolate sets, sprinkle on some chopped nuts, toffee bits, sprinkles, or colored sugar.</li>
-                                </ol>
-                                <button type="button" name="button" class="button">BANG!</button>
-                                <p class="t">TOTAL TIME 25 minutes</p>
-                            </section>
-                        </section>
-
-
-
-
-
-
-                    </div>
+                    </section>
+                </div>
             </main>
-        </div>
 
-
-
-
-
-        <script src="jquery-3.3.1.min.js"></script>
-        <script src="jquery.js"></script>
+            <script src="jquery-3.3.1.min.js"></script>
+            <script src="jquery.js"></script>
     </body>
 
 </html>
