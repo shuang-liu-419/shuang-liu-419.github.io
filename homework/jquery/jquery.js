@@ -7,7 +7,7 @@ $(document).ready(function() {
   $('#button')
     .click(function() {
       $("#sweet").slideToggle('slow');
-    })
+    });
 
   $("#button1")
     .click(function() {
