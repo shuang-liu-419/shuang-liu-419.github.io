@@ -23,7 +23,7 @@
 
   .grid4-container {
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto 1fr;
   }
 
   .grid1-img-1 {
